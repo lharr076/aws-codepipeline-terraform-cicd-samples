@@ -1,8 +1,8 @@
 project_name       = "tf-validate-project"
 environment        = "dev"
-source_repo_name   = "terraform-sample-repo"
+source_repo_name   = "terraform-repo"
 source_repo_branch = "main"
-create_new_repo    = false
+create_new_repo    = true
 repo_approvers_arn = "arn:aws:iam::755495904590:user/Larry" #Update ARN (IAM Role/User/Group) of Approval Members
 create_new_role    = true
 #codepipeline_iam_role_name = <Role name> - Use this to specify the role name to be used by codepipeline if the create_new_role flag is set to false.
